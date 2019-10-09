@@ -1,11 +1,10 @@
-<?php
+ <?php
 
 include_once "Node.php";
 class LinkList
 {
     private $firstNode;
     private $lastNode;
-
     private $count;
     function __construct()
     {
@@ -50,7 +49,7 @@ class LinkList
         while($current != NULL)
         {
             array_push($listData, $this->firstNode);
-            $current = $current->next;
+            $current = $this->next;
         }
         return $listData;
     }

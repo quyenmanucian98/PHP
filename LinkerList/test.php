@@ -1,6 +1,6 @@
 <?php
-include_once ('Node.php');
-include_once ('LinkList.php');
+include_once('Node.php');
+include_once('LinkList.php');
 
 $linkedList = new LinkList();
 
